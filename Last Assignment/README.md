@@ -1,12 +1,10 @@
-# Player Management System
-
+**Player Management System:**
 A Java application that performs CRUD operations on player data using JDBC.
 
-## Objective
-
+**Objective:** 
 Create a Java application that manages player data with CRUD operations (Create, Read, Update, Delete) using JDBC.
 
-## Player Data Model
+**Player Data Model:**
 
 | Field         | Type    | Description                                    |
 |---------------|---------|------------------------------------------------|
@@ -17,17 +15,13 @@ Create a Java application that manages player data with CRUD operations (Create,
 | country       | String  | Country of the player                         |
 | overall_score | Double  | Overall score based on performance            |
 
-## Features
-
-### CRUD Operations
-
+**CRUD Operations:**
 - **Create**: Add a new player to the database
 - **Read**: Fetch players from the database based on various conditions
 - **Update**: Update player details (skill, experience, etc.)
 - **Delete**: Remove a player from the database
 
-### Data Operations
-
+**Data Operations:**
 - Sort players based on their skill
 - List players by country
 - List players by experience (highest to lowest)
